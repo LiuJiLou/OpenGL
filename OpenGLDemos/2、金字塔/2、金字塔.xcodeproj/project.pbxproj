@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BCBD82F24BB3F6D008499CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BCBD82E24BB3F6D008499CA /* Assets.xcassets */; };
+		6BCBD83224BB3F6D008499CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BCBD83024BB3F6D008499CA /* Main.storyboard */; };
+		6BCBD84024BB3F6E008499CA /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCBD83F24BB3F6E008499CA /* _____Tests.m */; };
+		6BCBD84B24BB3F6E008499CA /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BCBD84A24BB3F6E008499CA /* _____UITests.m */; };
+		6BCBD86A24BB4000008499CA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBD86924BB4000008499CA /* OpenGL.framework */; };
+		6BCBD86C24BB402E008499CA /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBD86B24BB402E008499CA /* GLUT.framework */; };
+		6BCBD86E24BB4048008499CA /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCBD86D24BB4048008499CA /* libGLTools.a */; };
+		6BCBD87024BB4061008499CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6BCBD86F24BB4061008499CA /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BCBD83C24BB3F6E008499CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBD81D24BB3F6A008499CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCBD82424BB3F6A008499CA;
+			remoteInfo = "2、金字塔";
+		};
+		6BCBD84724BB3F6E008499CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BCBD81D24BB3F6A008499CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BCBD82424BB3F6A008499CA;
+			remoteInfo = "2、金字塔";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BCBD82524BB3F6A008499CA /* 2、金字塔.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2、金字塔.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCBD82E24BB3F6D008499CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BCBD83124BB3F6D008499CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BCBD83324BB3F6D008499CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCBD83624BB3F6D008499CA /* _____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "_____.entitlements"; sourceTree = "<group>"; };
+		6BCBD83B24BB3F6E008499CA /* 2、金字塔Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2、金字塔Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCBD83F24BB3F6E008499CA /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		6BCBD84124BB3F6E008499CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCBD84624BB3F6E008499CA /* 2、金字塔UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2、金字塔UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCBD84A24BB3F6E008499CA /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		6BCBD84C24BB3F6E008499CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BCBD85924BB3FE9008499CA /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		6BCBD85A24BB3FE9008499CA /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		6BCBD85B24BB3FE9008499CA /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		6BCBD85C24BB3FE9008499CA /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		6BCBD85D24BB3FE9008499CA /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		6BCBD85E24BB3FE9008499CA /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		6BCBD85F24BB3FE9008499CA /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		6BCBD86024BB3FE9008499CA /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		6BCBD86124BB3FE9008499CA /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		6BCBD86224BB3FE9008499CA /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		6BCBD86424BB3FE9008499CA /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		6BCBD86524BB3FE9008499CA /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		6BCBD86624BB3FE9008499CA /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		6BCBD86724BB3FE9008499CA /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		6BCBD86924BB4000008499CA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6BCBD86B24BB402E008499CA /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		6BCBD86D24BB4048008499CA /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		6BCBD86F24BB4061008499CA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCBD82224BB3F6A008499CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCBD86E24BB4048008499CA /* libGLTools.a in Frameworks */,
+				6BCBD86C24BB402E008499CA /* GLUT.framework in Frameworks */,
+				6BCBD86A24BB4000008499CA /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCBD83824BB3F6E008499CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCBD84324BB3F6E008499CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BCBD81C24BB3F6A008499CA = {
+			isa = PBXGroup;
+			children = (
+				6BCBD82724BB3F6A008499CA /* 2、金字塔 */,
+				6BCBD83E24BB3F6E008499CA /* 2、金字塔Tests */,
+				6BCBD84924BB3F6E008499CA /* 2、金字塔UITests */,
+				6BCBD82624BB3F6A008499CA /* Products */,
+				6BCBD86824BB4000008499CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BCBD82624BB3F6A008499CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD82524BB3F6A008499CA /* 2、金字塔.app */,
+				6BCBD83B24BB3F6E008499CA /* 2、金字塔Tests.xctest */,
+				6BCBD84624BB3F6E008499CA /* 2、金字塔UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BCBD82724BB3F6A008499CA /* 2、金字塔 */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD85824BB3FE9008499CA /* include */,
+				6BCBD82E24BB3F6D008499CA /* Assets.xcassets */,
+				6BCBD83024BB3F6D008499CA /* Main.storyboard */,
+				6BCBD83324BB3F6D008499CA /* Info.plist */,
+				6BCBD83624BB3F6D008499CA /* _____.entitlements */,
+				6BCBD86F24BB4061008499CA /* main.cpp */,
+			);
+			path = "2、金字塔";
+			sourceTree = "<group>";
+		};
+		6BCBD83E24BB3F6E008499CA /* 2、金字塔Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD83F24BB3F6E008499CA /* _____Tests.m */,
+				6BCBD84124BB3F6E008499CA /* Info.plist */,
+			);
+			path = "2、金字塔Tests";
+			sourceTree = "<group>";
+		};
+		6BCBD84924BB3F6E008499CA /* 2、金字塔UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD84A24BB3F6E008499CA /* _____UITests.m */,
+				6BCBD84C24BB3F6E008499CA /* Info.plist */,
+			);
+			path = "2、金字塔UITests";
+			sourceTree = "<group>";
+		};
+		6BCBD85824BB3FE9008499CA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD85924BB3FE9008499CA /* GLBatchBase.h */,
+				6BCBD85A24BB3FE9008499CA /* math3d.h */,
+				6BCBD85B24BB3FE9008499CA /* GLTriangleBatch.h */,
+				6BCBD85C24BB3FE9008499CA /* GLBatch.h */,
+				6BCBD85D24BB3FE9008499CA /* GLMatrixStack.h */,
+				6BCBD85E24BB3FE9008499CA /* GLFrame.h */,
+				6BCBD85F24BB3FE9008499CA /* GLFrustum.h */,
+				6BCBD86024BB3FE9008499CA /* GLGeometryTransform.h */,
+				6BCBD86124BB3FE9008499CA /* GLShaderManager.h */,
+				6BCBD86224BB3FE9008499CA /* StopWatch.h */,
+				6BCBD86324BB3FE9008499CA /* GL */,
+				6BCBD86724BB3FE9008499CA /* GLTools.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		6BCBD86324BB3FE9008499CA /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD86424BB3FE9008499CA /* glxew.h */,
+				6BCBD86524BB3FE9008499CA /* wglew.h */,
+				6BCBD86624BB3FE9008499CA /* glew.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		6BCBD86824BB4000008499CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BCBD86D24BB4048008499CA /* libGLTools.a */,
+				6BCBD86B24BB402E008499CA /* GLUT.framework */,
+				6BCBD86924BB4000008499CA /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BCBD82424BB3F6A008499CA /* 2、金字塔 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCBD84F24BB3F6E008499CA /* Build configuration list for PBXNativeTarget "2、金字塔" */;
+			buildPhases = (
+				6BCBD82124BB3F6A008499CA /* Sources */,
+				6BCBD82224BB3F6A008499CA /* Frameworks */,
+				6BCBD82324BB3F6A008499CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2、金字塔";
+			productName = "2、金字塔";
+			productReference = 6BCBD82524BB3F6A008499CA /* 2、金字塔.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BCBD83A24BB3F6E008499CA /* 2、金字塔Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCBD85224BB3F6E008499CA /* Build configuration list for PBXNativeTarget "2、金字塔Tests" */;
+			buildPhases = (
+				6BCBD83724BB3F6E008499CA /* Sources */,
+				6BCBD83824BB3F6E008499CA /* Frameworks */,
+				6BCBD83924BB3F6E008499CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BCBD83D24BB3F6E008499CA /* PBXTargetDependency */,
+			);
+			name = "2、金字塔Tests";
+			productName = "2、金字塔Tests";
+			productReference = 6BCBD83B24BB3F6E008499CA /* 2、金字塔Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BCBD84524BB3F6E008499CA /* 2、金字塔UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCBD85524BB3F6E008499CA /* Build configuration list for PBXNativeTarget "2、金字塔UITests" */;
+			buildPhases = (
+				6BCBD84224BB3F6E008499CA /* Sources */,
+				6BCBD84324BB3F6E008499CA /* Frameworks */,
+				6BCBD84424BB3F6E008499CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BCBD84824BB3F6E008499CA /* PBXTargetDependency */,
+			);
+			name = "2、金字塔UITests";
+			productName = "2、金字塔UITests";
+			productReference = 6BCBD84624BB3F6E008499CA /* 2、金字塔UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BCBD81D24BB3F6A008499CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = liujilou;
+				TargetAttributes = {
+					6BCBD82424BB3F6A008499CA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6BCBD83A24BB3F6E008499CA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6BCBD82424BB3F6A008499CA;
+					};
+					6BCBD84524BB3F6E008499CA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6BCBD82424BB3F6A008499CA;
+					};
+				};
+			};
+			buildConfigurationList = 6BCBD82024BB3F6A008499CA /* Build configuration list for PBXProject "2、金字塔" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BCBD81C24BB3F6A008499CA;
+			productRefGroup = 6BCBD82624BB3F6A008499CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BCBD82424BB3F6A008499CA /* 2、金字塔 */,
+				6BCBD83A24BB3F6E008499CA /* 2、金字塔Tests */,
+				6BCBD84524BB3F6E008499CA /* 2、金字塔UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BCBD82324BB3F6A008499CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCBD82F24BB3F6D008499CA /* Assets.xcassets in Resources */,
+				6BCBD83224BB3F6D008499CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCBD83924BB3F6E008499CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCBD84424BB3F6E008499CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BCBD82124BB3F6A008499CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCBD87024BB4061008499CA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCBD83724BB3F6E008499CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCBD84024BB3F6E008499CA /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCBD84224BB3F6E008499CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BCBD84B24BB3F6E008499CA /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BCBD83D24BB3F6E008499CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BCBD82424BB3F6A008499CA /* 2、金字塔 */;
+			targetProxy = 6BCBD83C24BB3F6E008499CA /* PBXContainerItemProxy */;
+		};
+		6BCBD84824BB3F6E008499CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BCBD82424BB3F6A008499CA /* 2、金字塔 */;
+			targetProxy = 6BCBD84724BB3F6E008499CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BCBD83024BB3F6D008499CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BCBD83124BB3F6D008499CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BCBD84D24BB3F6E008499CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BCBD84E24BB3F6E008499CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BCBD85024BB3F6E008499CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "2、金字塔/_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2、金字塔/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liujilou.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BCBD85124BB3F6E008499CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "2、金字塔/_____.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2、金字塔/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liujilou.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BCBD85324BB3F6E008499CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2、金字塔Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liujilou.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2、金字塔.app/Contents/MacOS/2、金字塔";
+			};
+			name = Debug;
+		};
+		6BCBD85424BB3F6E008499CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2、金字塔Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liujilou.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2、金字塔.app/Contents/MacOS/2、金字塔";
+			};
+			name = Release;
+		};
+		6BCBD85624BB3F6E008499CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2、金字塔UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liujilou.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2、金字塔";
+			};
+			name = Debug;
+		};
+		6BCBD85724BB3F6E008499CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "2、金字塔UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liujilou.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2、金字塔";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BCBD82024BB3F6A008499CA /* Build configuration list for PBXProject "2、金字塔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCBD84D24BB3F6E008499CA /* Debug */,
+				6BCBD84E24BB3F6E008499CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCBD84F24BB3F6E008499CA /* Build configuration list for PBXNativeTarget "2、金字塔" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCBD85024BB3F6E008499CA /* Debug */,
+				6BCBD85124BB3F6E008499CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCBD85224BB3F6E008499CA /* Build configuration list for PBXNativeTarget "2、金字塔Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCBD85324BB3F6E008499CA /* Debug */,
+				6BCBD85424BB3F6E008499CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCBD85524BB3F6E008499CA /* Build configuration list for PBXNativeTarget "2、金字塔UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BCBD85624BB3F6E008499CA /* Debug */,
+				6BCBD85724BB3F6E008499CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BCBD81D24BB3F6A008499CA /* Project object */;
+}

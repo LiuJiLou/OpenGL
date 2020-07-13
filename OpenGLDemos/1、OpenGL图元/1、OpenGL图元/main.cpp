@@ -370,6 +370,7 @@ void RenderScene(void)
             glLineWidth(1.0f);
             break;
         case 4:
+//            金字塔
             DrawWireFramedBatch(&triangleBatch);
             break;
         case 5:
