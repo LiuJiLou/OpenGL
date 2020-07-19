@@ -43,6 +43,12 @@ void RenderScene()
 //    如果不清理会有残留数据（如图1）
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     
+//    开启表面剔除
+//    glEnable(GL_CULL_FACE);
+    
+//    开启深度测试
+    glEnable(GL_DEPTH_TEST);
+    
 //    2、把摄像机矩阵压入模型矩阵中
     modelViewMatix.PushMatrix(viewFrame);
     
