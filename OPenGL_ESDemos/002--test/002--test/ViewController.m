@@ -45,9 +45,9 @@ static NSInteger const kCoordCount = 36;
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    [self testDemo1];
-//    [self testDemo2];
-    [self testDemo3];
+    [self testDemo1];//GLSL纹理图片加载
+//    [self testDemo2];//纹理图片立方体旋转
+//    [self testDemo3];//核心动画立方体旋转
 }
 
 -(void)testDemo1
