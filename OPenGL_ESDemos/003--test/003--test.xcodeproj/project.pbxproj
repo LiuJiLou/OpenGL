@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B92504424DEB58A00D4E1C6 /* LJLView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B92504324DEB58A00D4E1C6 /* LJLView1.m */; };
+		6B92504624DEDE5300D4E1C6 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92504524DEDE5300D4E1C6 /* shaderf.fsh */; };
+		6B92504824DEDE6800D4E1C6 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92504724DEDE6800D4E1C6 /* shaderv.vsh */; };
+		6B92505124DFE7A800D4E1C6 /* shaderf2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505024DFE7A800D4E1C6 /* shaderf2.fsh */; };
+		6B92505324DFE7BD00D4E1C6 /* shaderv2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505224DFE7BD00D4E1C6 /* shaderv2.vsh */; };
+		6B92505524DFF51700D4E1C6 /* shaderf3.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505424DFF51700D4E1C6 /* shaderf3.fsh */; };
+		6B92505724DFF53000D4E1C6 /* shaderv3.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505624DFF53000D4E1C6 /* shaderv3.vsh */; };
+		6B92505924DFF6E300D4E1C6 /* shaderf4.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505824DFF6E300D4E1C6 /* shaderf4.fsh */; };
+		6B92505B24DFF6F900D4E1C6 /* shaderv4.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505A24DFF6F900D4E1C6 /* shaderv4.vsh */; };
+		6B92505D24DFFB7200D4E1C6 /* shaderf5.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505C24DFFB7100D4E1C6 /* shaderf5.fsh */; };
+		6B92505F24DFFB9100D4E1C6 /* shaderv5.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6B92505E24DFFB9100D4E1C6 /* shaderv5.vsh */; };
 		6BBABCC524CF0A4100D15749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBABCC424CF0A4100D15749 /* AppDelegate.m */; };
 		6BBABCC824CF0A4100D15749 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBABCC724CF0A4100D15749 /* SceneDelegate.m */; };
 		6BBABCCB24CF0A4100D15749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBABCCA24CF0A4100D15749 /* ViewController.m */; };
@@ -37,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B92504224DEB58A00D4E1C6 /* LJLView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJLView1.h; sourceTree = "<group>"; };
+		6B92504324DEB58A00D4E1C6 /* LJLView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJLView1.m; sourceTree = "<group>"; };
+		6B92504524DEDE5300D4E1C6 /* shaderf.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
+		6B92504724DEDE6800D4E1C6 /* shaderv.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
+		6B92505024DFE7A800D4E1C6 /* shaderf2.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf2.fsh; sourceTree = "<group>"; };
+		6B92505224DFE7BD00D4E1C6 /* shaderv2.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv2.vsh; sourceTree = "<group>"; };
+		6B92505424DFF51700D4E1C6 /* shaderf3.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf3.fsh; sourceTree = "<group>"; };
+		6B92505624DFF53000D4E1C6 /* shaderv3.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv3.vsh; sourceTree = "<group>"; };
+		6B92505824DFF6E300D4E1C6 /* shaderf4.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf4.fsh; sourceTree = "<group>"; };
+		6B92505A24DFF6F900D4E1C6 /* shaderv4.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv4.vsh; sourceTree = "<group>"; };
+		6B92505C24DFFB7100D4E1C6 /* shaderf5.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderf5.fsh; sourceTree = "<group>"; };
+		6B92505E24DFFB9100D4E1C6 /* shaderv5.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shaderv5.vsh; sourceTree = "<group>"; };
 		6BBABCC024CF0A4100D15749 /* 003--test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "003--test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBABCC324CF0A4100D15749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BBABCC424CF0A4100D15749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +106,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B92504124DEB56D00D4E1C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6B92504224DEB58A00D4E1C6 /* LJLView1.h */,
+				6B92504324DEB58A00D4E1C6 /* LJLView1.m */,
+				6B92504F24DFE77A00D4E1C6 /* shaders */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6B92504F24DFE77A00D4E1C6 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6B92504524DEDE5300D4E1C6 /* shaderf.fsh */,
+				6B92504724DEDE6800D4E1C6 /* shaderv.vsh */,
+				6B92505024DFE7A800D4E1C6 /* shaderf2.fsh */,
+				6B92505224DFE7BD00D4E1C6 /* shaderv2.vsh */,
+				6B92505424DFF51700D4E1C6 /* shaderf3.fsh */,
+				6B92505624DFF53000D4E1C6 /* shaderv3.vsh */,
+				6B92505824DFF6E300D4E1C6 /* shaderf4.fsh */,
+				6B92505A24DFF6F900D4E1C6 /* shaderv4.vsh */,
+				6B92505C24DFFB7100D4E1C6 /* shaderf5.fsh */,
+				6B92505E24DFFB9100D4E1C6 /* shaderv5.vsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
 		6BBABCB724CF0A4100D15749 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +162,7 @@
 				6BBABCC724CF0A4100D15749 /* SceneDelegate.m */,
 				6BBABCC924CF0A4100D15749 /* ViewController.h */,
 				6BBABCCA24CF0A4100D15749 /* ViewController.m */,
+				6B92504124DEB56D00D4E1C6 /* Views */,
 				6BBABCF824CF0CD900D15749 /* 笔记.c */,
 				6BBABCCC24CF0A4100D15749 /* Main.storyboard */,
 				6BBABCCF24CF0A4400D15749 /* Assets.xcassets */,
@@ -243,9 +294,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B92505124DFE7A800D4E1C6 /* shaderf2.fsh in Resources */,
+				6B92504824DEDE6800D4E1C6 /* shaderv.vsh in Resources */,
+				6B92505724DFF53000D4E1C6 /* shaderv3.vsh in Resources */,
 				6BBABCD324CF0A4400D15749 /* LaunchScreen.storyboard in Resources */,
+				6B92505524DFF51700D4E1C6 /* shaderf3.fsh in Resources */,
+				6B92505F24DFFB9100D4E1C6 /* shaderv5.vsh in Resources */,
+				6B92505324DFE7BD00D4E1C6 /* shaderv2.vsh in Resources */,
+				6B92505924DFF6E300D4E1C6 /* shaderf4.fsh in Resources */,
 				6BBABCD024CF0A4400D15749 /* Assets.xcassets in Resources */,
+				6B92505B24DFF6F900D4E1C6 /* shaderv4.vsh in Resources */,
+				6B92505D24DFFB7200D4E1C6 /* shaderf5.fsh in Resources */,
 				6BBABCCE24CF0A4100D15749 /* Main.storyboard in Resources */,
+				6B92504624DEDE5300D4E1C6 /* shaderf.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BBABCF924CF0CD900D15749 /* 笔记.c in Sources */,
+				6B92504424DEB58A00D4E1C6 /* LJLView1.m in Sources */,
 				6BBABCCB24CF0A4100D15749 /* ViewController.m in Sources */,
 				6BBABCC524CF0A4100D15749 /* AppDelegate.m in Sources */,
 				6BBABCD624CF0A4400D15749 /* main.m in Sources */,

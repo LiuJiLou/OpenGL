@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "LJLView1.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) LJLView1 * myView;
 
 @end
 
@@ -16,8 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.myView = [[LJLView1 alloc] initWithFrame:self.view.bounds];
+    self.myView.processingType =
+    ProcessingType_one;
+//    ProcessingType_two;
+//    ProcessingType_three;
+//    ProcessingType_four;
+//    ProcessingType_five;
+    
+    [self.view addSubview:self.myView];
+    
 }
-
 
 @end
